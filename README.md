@@ -14,7 +14,7 @@ Recency
 Frequency
 
 Monetary 
-
+<img src="file:///C:/Users/elley/git_vscode/jeewon-yoon.github.io/assets/798d2ac6f40b27ccadea575ed01da6c1e466d1e3.png" title="" alt="logl" width="204">
 
 **분석 방법론**  
 Python(pandas, matplotlib, seaborn, sklearn)을 이용하여 고객수를 기준으로 3분위 구간 나누기와 k-means 군집화 분석을 진행. 시각화(pieplot, barchart)를 진행. 
