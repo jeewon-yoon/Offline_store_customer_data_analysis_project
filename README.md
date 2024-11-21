@@ -18,6 +18,8 @@ Monetary
 <img src="https://github.com/user-attachments/assets/5f03bd07-b6c5-4dd5-b249-d67f444ff426" width="273" height="200" data-align="right">
 
 
+
+
 **분석 방법론**  
 Python(pandas, matplotlib, seaborn, sklearn)을 이용하여 고객수를 기준으로 3분위 구간 나누기와 k-means 군집화 분석을 진행. 시각화(pieplot, barchart)를 진행. 
 
