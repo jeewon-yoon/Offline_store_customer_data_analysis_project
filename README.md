@@ -15,7 +15,6 @@ Frequency
 
 Monetary 
 
-![rfm_image](https://drive.google.com/file/d/1Kk1btPH__GgjoFz9PSuiH6I9gxNhbOL2/view?usp=drive_link)
 
 **분석 방법론**  
 Python(pandas, matplotlib, seaborn, sklearn)을 이용하여 고객수를 기준으로 3분위 구간 나누기와 k-means 군집화 분석을 진행. 시각화(pieplot, barchart)를 진행. 
