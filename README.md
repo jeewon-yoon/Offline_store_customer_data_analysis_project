@@ -14,7 +14,7 @@
 - Frequency: 온라인몰 • 할인행사 • 매장에서 구매한 횟수
 - Monetary: 품목별(육류, 과자, 일반, 주류, 과일, 생선) 소비액
 
-<p align="center"><img src="https://github.com/user-attachments/assets/5f03bd07-b6c5-4dd5-b249-d67f444ff426" width="273" height="200" data-align="center"></p>``
+<p align="center"><img src="https://github.com/user-attachments/assets/5f03bd07-b6c5-4dd5-b249-d67f444ff426" width="273" height="200" data-align="center"></p>
 
 
 **분석 방법론**  
