@@ -1,5 +1,5 @@
 ### <대형마트 고객 세분화 분석> 
-**프로젝트 상세 소개** [포트폴리오 링크](https://drive.google.com/file/d/1NPSMdHk9HeCqIAqaSs0D2LexnZ8GOmPE/view?usp=drive_link)
+**프로젝트 상세 소개:** [포트폴리오 링크](https://drive.google.com/file/d/1NPSMdHk9HeCqIAqaSs0D2LexnZ8GOmPE/view?usp=drive_link)
 <br><br>
 ### 프로젝트 소개  
 매출액 성장률 하락을 막기 위해 기존 고객을 대상으로 마케팅 전략을 기획하고 있는 마케팅 팀에게 2년동안 마트에 가입한 고객 정보 데이터를 분석한 결과를 전달.   
