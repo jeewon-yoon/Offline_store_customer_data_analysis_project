@@ -24,8 +24,9 @@
   - 온라인몰•할인행사•매장에서 구매한 횟수
   - 프로모션 1~5 참여횟수      
 
-<img width="698" alt="Image" src="https://github.com/user-attachments/assets/7173a3ee-e897-46f6-85c0-83e038e2f34d" />
-
+<img width="236" alt="Image" src="https://github.com/user-attachments/assets/4c52fb32-5ea4-4c77-a3bd-2177ca270f79" />
+*promotion_1부터 promotion_6까지 존재, 각 프로모션의 참여여부를 동일한 형식으로 표시.    
+<br>
 데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침.
 데이터를 점검하고 정제하는데 사용된 Python 코드는 여기에서 확인할 수 있습니다: [링크].<br> 
 
