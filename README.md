@@ -19,7 +19,7 @@
 <br>  
   
 # 데이터 구조 및 초기 점검
-2년동안 마트에 가입한 고객 2,240명의 정보.  
+2년동안 마트에 가입한 고객 2,240명의 정보. <br>     
 <img width="236" alt="Image" src="https://github.com/user-attachments/assets/4c52fb32-5ea4-4c77-a3bd-2177ca270f79" />  
 *promotion_1부터 promotion_6까지 존재, 각 프로모션의 참여여부를 동일한 형식으로 표시.          
 <br>
