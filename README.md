@@ -12,9 +12,8 @@
 이러한 변화 속에서 모든 고객을 대상으로 한 마케팅보다, 기존 고객의 유지 및 중요 고객층에 집중하는 ‘선택과 집중’ 전략이 더욱 중요해지며 신규 고객 유치에는 높은 비용이 발생하는 반면, 기존 고객을 유지하는 것이 상대적으로 효율적입니다. 
 이에 따라, 대형마트 고객을 효과적으로 세분화하고, 충성도 높은 고객을 식별하기 위해 고객정보에 RFM(Recency, Frequency, Monetary) 분석 프레임워크를 활용하였습니다. 이를 통해 고객의 최근 구매 이력, 구매 빈도, 구매 금액을 기반으로 고객 가치를 평가하고, 타겟 맞춤형 마케팅 전략을 제안하고자 합니다. <br>     
 
-- RFM 프레임워크를 활용하여 고객 세그먼테이션 분석을 한 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/EDA.ipynb)에서 확인할 수 있습니다.
-
-<br><br>    
+- RFM 프레임워크를 활용하여 고객 세그먼테이션 분석을 한 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/rfm_analysis.ipynb)에서 확인할 수 있습니다.     
+<br>    
 
 # 프로젝트 주제
 본 프로젝트에서는 2,240명의 고객 데이터를 바탕으로 RFM(Recency, Frequency, Monetary) 분석을 수행하여 고객을 세분화하고, 중요 고객군을 식별하였습니다.    
@@ -38,8 +37,11 @@
 * Monetary: 품목별(육류, 과자, 일반, 주류, 과일, 생선) 소비액의 총 합계
 
 ### 분석 방법론  
-* Python(pandas, matplotlib, seaborn, sklearn)을 이용하여 고객수를 기준으로 3분위 구간 나누기를 진행. RFM 지표별 고객 등급별로 소비액을 pieplot으로 나타냄. 3 지표의 매출기여도를 고려하여 가중치 조정.
-* K-means 군집화 분석을 통해 최적의 군집 개수를 파악.
+* 고객 수를 기준으로 3분위 구간 나누고 RFM 지표별 고객 등급별로 소비액을 pieplot으로 나타냄. 3 지표의 매출기여도를 고려하여 가중치 조정.
+  * 관련 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/qcut_3.ipynb)에서 확인할 수 있습니다. 
+* 고객 수를 3분위로 나눠 임의로 구간을 설정하였기 때문에 K-means 군집화 분석을 통해 데이터 내 자연스럽게 형성되는 최적의 군집 개수를 파악하여 임의로 설정한 구간 설정이 고객 특성에 부합하는지 검증.
+  * 관련 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/k-means_clustering.ipynb)에서 확인할 수 있음.  
+
 
 ### 인사이트 및 주요 발견 사항 
 * K-means 군집화 분석을 통해 우수고객의 특성을 더 명확하게 파악가능. 돈을 많이 쓰는 고객일수록 평소 마트 행사에 많이 참여함.             
