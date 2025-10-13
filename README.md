@@ -12,7 +12,7 @@
 이러한 변화 속에서 모든 고객을 대상으로 한 마케팅보다, 기존 고객의 유지 및 중요 고객층에 집중하는 ‘선택과 집중’ 전략이 더욱 중요해지며 신규 고객 유치에는 높은 비용이 발생하는 반면, 기존 고객을 유지하는 것이 상대적으로 효율적입니다. 
 이에 따라, 대형마트 고객을 효과적으로 세분화하고, 충성도 높은 고객을 식별하기 위해 고객정보에 RFM(Recency, Frequency, Monetary) 분석 프레임워크를 활용하였습니다. 이를 통해 고객의 최근 구매 이력, 구매 빈도, 구매 금액을 기반으로 고객 가치를 평가하고, 타겟 맞춤형 마케팅 전략을 제안하고자 합니다. <br>     
 
-- RFM 프레임워크를 활용하여 고객 세그먼테이션 분석을 한 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/rfm_analysis.ipynb)에서 확인할 수 있습니다.     
+- RFM 프레임워크를 활용하여 고객 세그먼테이션 분석을 한 Python 코드는 [여기](https://colab.research.google.com/github/jeewon-yoon/Offline_store_customer_data_analysis_project/blob/main/rfm_analysis.ipynb)에서 확인할 수 있습니다.     
 <br>    
 
 # 프로젝트 주제
@@ -25,7 +25,7 @@
 *promotion_1부터 promotion_6까지 존재, 각 프로모션의 참여여부를 동일한 형식으로 표시.          
 <br>
 데이터 분석을 시작하기 전, 데이터 품질 관리를 위한 다양한 검증 작업을 수행하고 검토를 통해 데이터셋을 숙지하는 과정을 거침. 
-* 데이터를 점검하고 정제하는데 사용된 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/EDA.ipynb)에서 확인할 수 있습니다.  
+* 데이터를 점검하고 정제하는데 사용된 Python 코드는 [여기](https://colab.research.google.com/github/jeewon-yoon/Offline_store_customer_data_analysis_project/blob/main/EDA.ipynb)에서 확인할 수 있습니다.  
 <br>
    
 
@@ -36,8 +36,8 @@
 * Monetary: 품목별(육류, 과자, 일반, 주류, 과일, 생선) 소비액의 총 합계
 
 ### 분석 방법론  
-* Recency, Frequency, Monetary 3 지표에 대해 고객 수를 기준으로 3분위 구간으로 나누고 고객 등급별로 전체 소비액 중 차지하는 비중을 pieplot으로 나타냄. 3 지표의 매출기여도를 고려하여 가중치를 조정하고 등급과 가중치를 조합하여 고객들을 세분화. 관련 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/qcut_3.ipynb)에서 확인할 수 있습니다. 
-* 고객 수를 기준으로 3분위 구간으로 나누었고 가중치를 pieplot을 바탕으로 어림잡아 설정하였기 때문에 K-means 군집화 분석을 통해 데이터 내 자연스럽게 형성되는 최적의 군집 개수를 파악하여 초기 고객 세분화 분석이 잘 이루어졌는지 한번 더 검증. 관련 Python 코드는 [여기](https://raw.githubusercontent.com/jeewon-yoon/Offline_store_customer_data_analysis_project/master/k-means_clustering.ipynb)에서 확인할 수 있습니다.  
+* Recency, Frequency, Monetary 3 지표에 대해 고객 수를 기준으로 3분위 구간으로 나누고 고객 등급별로 전체 소비액 중 차지하는 비중을 pieplot으로 나타냄. 3 지표의 매출기여도를 고려하여 가중치를 조정하고 등급과 가중치를 조합하여 고객들을 세분화. 관련 Python 코드는 [여기](https://colab.research.google.com/github/jeewon-yoon/Offline_store_customer_data_analysis_project/blob/main/qcut_3.ipynb)에서 확인할 수 있습니다. 
+* 고객 수를 기준으로 3분위 구간으로 나누었고 가중치를 pieplot을 바탕으로 어림잡아 설정하였기 때문에 K-means 군집화 분석을 통해 데이터 내 자연스럽게 형성되는 최적의 군집 개수를 파악하여 초기 고객 세분화 분석이 잘 이루어졌는지 한번 더 검증. 관련 Python 코드는 [여기](https://colab.research.google.com/github/jeewon-yoon/Offline_store_customer_data_analysis_project/blob/main/k-means_clustering.ipynb)에서 확인할 수 있습니다.  
 
 
 ### 인사이트 및 주요 발견 사항 
