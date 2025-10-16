@@ -3,7 +3,7 @@
 # **프로젝트 개요**
 이커머스의 성장으로 오프라인 매장의 실적이 하락하고 있으며, 이를 극복하기 위해 다양한 마케팅 전략이 시도되고 있음. 비용 효율적인 전략 수립을 위해서는 기존 고객 데이터를 활용한 정교한 분석이 필요. 이에 따라 2,240명의 고객 데이터를 바탕으로 RFM(Recency, Frequency, Monetary) 분석을 수행하여 고객을 세분화하고, 핵심 고객군을 식별. 이를 통해 고객 맞춤형 마케팅 전략을 도출하고 오프라인 매장이 경쟁력을 유지할 수 있기 위한 효과적인 방안을 제시.    
 
-**프로젝트 상세 소개:** [포트폴리오 링크](https://drive.google.com/file/d/1NPSMdHk9HeCqIAqaSs0D2LexnZ8GOmPE/view?usp=drive_link)  <br>      
+**프로젝트 상세 소개:** [포트폴리오 링크](https://drive.google.com/file/d/1vBRDT8q9FId9pebLPaqw5PPM9mSxX1mZ/view?usp=drive_link)  <br>      
 <br>
 
 # 프로젝트 배경
